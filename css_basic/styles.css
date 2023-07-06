@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    background-color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+    
+
+}
+.logo{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.works_on_smartphone{
+    @media screen {
+        min-width: 760px;
+        max-width: 1024px;
+    }
+}
+main{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    flex: auto;
+}
+article{
+    width: 67%;
+    flex: 2;
+    overflow-y: auto;
+    font-stretch: semi-expanded;
+    font-style: oblique;
+    
+}
+aside{
+    width: 33%;
+    flex: 1;
+    overflow-y: auto;
+}
