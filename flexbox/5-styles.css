@@ -272,6 +272,7 @@
          z-index: 3;
          background: transparent;
   }
+
   .header .header-container {
     display: flex;
     justify-content: space-between;
