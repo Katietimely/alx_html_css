@@ -216,9 +216,9 @@
   /* Navbar
       ============================= */
   
-  .navbar-menu {
+  /*.navbar-menu {
     float: right;
-  }
+  }*/
   
   .nav {
     margin: 0;
@@ -272,7 +272,7 @@
          z-index: 3;
          background: transparent;
   }
-  .header .header-container{
+  .header .header-container {
     display: flex;
     justify-content: space-between;
   }
