@@ -379,18 +379,24 @@
     padding: 10rem 40rem 2rem 0;
   }
   
-  /* Section Latest news
+
+      /* Section Latest news
       ========================  */
 
-      
-  .section-latest-news .row {
-      flex-direction: row-reverse;
-  }
+      /*target the row class inside section-latest-news class */
+      .section-latest-news .row {
+        /* set the flex direction to row reverse */
+        flex-direction: row-reverse;
+    }
 
 
 
 
   /*** 4. CARD ***/
+
+
+
+
   
   /* Card (all styles)
       ============================= */
