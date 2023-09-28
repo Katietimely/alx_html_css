@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html feedback</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <ul>
+            <li>
+                <label for="user_name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </li>
+
+            <li>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </li>
+
+            <li>
+                <label for="feedback">feedback Options:</label>
+                <input type="checkbox" name="excellent" id="excellent" required>
+                <label for="excellent">Excellent</label>
+                <input type="checkbox" name="good" id="good" required>
+                <label for="good">Good</label>
+                <input type="checkbox" name="average" id="average" required>
+                <label for="average">Average</label>
+                <input type="checkbox" name="poor" id="poor" required>
+                <label for="poor">Poor</label>
+            </li>
+
+        </ul>
+
+        <div>
+           <label for="fileUpload">File Upload:</label>
+           <input type="file" name="fileUpload" id="fileUpload" required>
+        </div>
+
+        <input type="submit" value="submit feedback">
+
+    </form>
+
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <ul>
+            <li>
+                <label for="user_name" aria-label="required">Name:</label>
+                <input type="text" name="user_name" id="name" required>
+            </li>
+
+            <li>
+                <label for="user_email" aria-label="required">Email:</label>
+                <input type="email" name="user_email" id="email" required>
+            </li>
+
+            <li>
+                <label for="subscription" aria-label="required">Subscription preferences:</label>
+                <input type="radio" id="month-time" name="subscription" value="monthly" required>
+                <label for="monthly">Monthly</label>
+                <input type="radio" id="year" name="subscription" value="yearly" required>
+                <label for="yearly">Yearly</label>
+            </li>
+        </ul>
+
+        <div>
+            <input type="submit" value="Confirm subscription">
+        </div>
+    </form>
+    
+    
+</body>
+</html>

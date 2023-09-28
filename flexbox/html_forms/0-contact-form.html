@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html forms</title>
+</head>
+<body>
+    <form action="/handlers_data" method="post"></form>
+
+    <div>
+      <label for="name" id="user_name" value="usser_name" aria-label="required">Name:</label>
+      <input type="text" name="namedic" id="namedic" required>
+    </div>
+
+    <div>
+    <label for="myEmail" id="myEmail"  value="myEmail" aria-label="required">Email address:</label>
+     <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+    </div>
+
+    <div>
+        <label for="myMessage" id="myMessage" value="myMessage">Message:</label>
+        <textarea name="message" id="message" cols="25" rows="10"></textarea>
+    </div>
+
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>
